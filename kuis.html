@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis Sederhana</title>
+    <link rel="stylesheet" href="kuis.css">
+</head>
+<body1>
+    <header>
+    <a href="logo 2 azfdfkhz.jpg" class="logo"><img src="logo 2 azfdfkhz.jpg" height ="70px"  margin-left: 20px;></a>
+
+    <nav>
+        <a href="halaman 2.html" class="active">halaman</a>
+        <a href="index.html" >home</a> 
+        <a href="contac.html" >Contact</a> 
+    </nav>
+</header>
+</body1>
+
+<body2>
+    <div class="quiz-container">
+        <h1>Kuis sumpah pemuda</h1>
+        <div id="timer" class="hidden">Waktu tersisa: <span id="time">10</span> detik</div>
+        <div id="question-container"></div>
+        <button id="next-button" onclick="nextQuestion()">Pertanyaan Selanjutnya</button>
+        <button id="finish-button" class="hidden" onclick="finishQuiz()">Selesai</button>
+        <div id="score-container" class="hidden"></div>
+        <button id="restart-button" class="hidden" onclick="restartQuiz()">Mulai Lagi</button>
+    </div>
+    <script src="kuis.js"></script>
+</body2>
+</html>
